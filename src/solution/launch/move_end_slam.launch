@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+    <include file="/home/zsm/eai_lidar_ws/src/EaiRosForGS2/launch/GS2.launch">
+    </include>
+    <node pkg="rviz" type="rviz" name="rviz" args="-d /home/zsm/hello_ws/src/solution/rviz/wan.rviz" required="true" />
+    <node pkg="solution" type="to_three" name="to_three" output="screen"/>
+    <node pkg="solution" type="odom_pub" name="odom_pub" output="screen"/>
+    <node pkg="solution" type="update_map" name="update_map" output="screen"/>
+</launch>

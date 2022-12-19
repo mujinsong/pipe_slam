@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+    
+    <node pkg="rviz" type="rviz" name="rviz" args="-d /home/zsm/hello_ws/src/solution/rviz/wan.rviz" required="true" />
+    <!-- <node pkg="solution" type="to_three" name="to_three" output="screen"/>
+    <node pkg="solution" type="handle_pc" name="handle_pc" output="screen"/>
+    <node pkg="solution" type="roat" name="roat" output="screen"/>
+    <node pkg="solution" type="pub_test" name="pub_test" output="screen"/>
+    <node pkg="solution" type="update_map" name="update_map" output="screen"/> -->
+</launch>
