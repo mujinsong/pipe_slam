@@ -1,2 +1,0 @@
-solution
--DCATKIN_DEVEL_PREFIX=/home/zsm/hello_ws/devel -DCMAKE_INSTALL_PREFIX=/home/zsm/hello_ws/install -G Unix Makefiles
