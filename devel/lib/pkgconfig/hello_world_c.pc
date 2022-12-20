@@ -1,8 +1,0 @@
-prefix=/home/zsm/hello_ws/devel
-
-Name: hello_world_c
-Description: Description of hello_world_c
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
